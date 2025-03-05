@@ -26,14 +26,13 @@
         return $this->HP;
     }
     
-    public function getAtaque(string $ataque): string {
-        foreach($this->ataques as $attack) {
-            if ($attack == $ataque) {
-                return $attack;
-            } 
-        }
-        return "";
-    } 
+    
+    public function getAtaque(string $ataque): bool {
+        if(in_array($ataque, $this->ataques)){ 
+            return true;
+        };
+        return false;
+    }
 
     public function __toString(){
         return "Nombre Pokemon: $this->nombre";

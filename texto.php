@@ -1,4 +1,4 @@
-Cada pokemon tiene un nombre tipo (fuego, electrico, agua o tierra,), HPmax y los ataques.
+Cada pokemon tiene un nombre, tipo (fuego, electrico, agua o tierra,), HPmax y los ataques.
 Crear 6 pokemons
 Devolver pokemons de ese tipo. Devolver pokemons que tengan ese ataque.
 
