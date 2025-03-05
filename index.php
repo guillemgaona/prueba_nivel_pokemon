@@ -9,7 +9,6 @@ $pokemons = [
 ];
 $equipoPokemon = new Equipo($pokemons);
 
-
 /*$equipoPokemon = new Equipo();
 $equipoPokemon->setPokemon($pokemons);*/
 
@@ -17,6 +16,6 @@ $equipoPokemon->setPokemon($pokemons);*/
 $equipoPokemon->addPokemond($pokemon1);
 $equipoPokemon->addPokemond($pokemon2);*/
 
-echo implode(", ", $equipoPokemon->buscarTipo(Tipo:: electrico)) . "<br>";
+echo implode(", ", $equipoPokemon->buscarTipo(Tipo:: electrico)) . PHP_EOL;
 echo implode(", ", $equipoPokemon->buscarAtaque("Rayo"));
 
